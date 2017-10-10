@@ -25,7 +25,7 @@ fun main(args: Array<String>) {
 
 fun takeCareOfProgrammers(programmer: Programmer) {
     when {
-        programmer.salary < 20_000 -> programmer.giveRaise()
         System.currentTimeMillis() < 0 -> println("this will never get called if the machine time is right")
+        programmer.salary < 20_000 -> programmer.giveRaise()
     }
 }

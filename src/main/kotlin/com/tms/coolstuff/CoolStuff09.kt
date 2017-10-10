@@ -8,7 +8,7 @@ fun main(args: Array<String>) {
     val employeeList = listOf(
             Manager("Mike", "Enterprise"),
             null,
-//            Programmer("Jeff", 30_000, null),
+//            Programmer("Jeff", 30_000, favoriteDrink = null),
             Programmer("Jordan", 30_000, "Crystal Pepsi")
     )
 
