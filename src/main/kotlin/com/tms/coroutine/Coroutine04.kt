@@ -12,6 +12,6 @@ fun main(args: Array<String>) {
     }
 
 //    val sum = deferred.sumBy { it.await() }
-//    println(sum)
+//    println("Sum $sum")
 
 }

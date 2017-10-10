@@ -2,6 +2,9 @@ package com.tms.coroutine
 
 import kotlinx.coroutines.experimental.*
 
+/**
+ * Introduce launch, delay and thread.sleep just in case (point out no exceptions handled)
+ */
 fun main(args: Array<String>) {
     println("Start")
 
