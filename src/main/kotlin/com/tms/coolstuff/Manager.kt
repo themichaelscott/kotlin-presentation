@@ -1,5 +1,8 @@
-package com.tms.oven
+package com.tms.coolstuff
 
+/**
+ * Another data class to be used in demo
+ */
 data class Manager(val name: String, val dept: String?) {
 
     fun goToMeeting() {
