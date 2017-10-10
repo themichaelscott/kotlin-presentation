@@ -6,7 +6,7 @@ import kotlinx.coroutines.experimental.runBlocking
 
 fun main(args: Array<String>) {
 
-    val deferred = (1..1_000_000).map {
+    val deferredIntList = (1..1_000_000).map {
         async {
             delay(1000)
             1
@@ -14,7 +14,7 @@ fun main(args: Array<String>) {
     }
 
     runBlocking {
-        val sum = deferred.sumBy { it.await() }
+        val sum = deferredIntList.sumBy { deferredInt ->  deferredInt.await() }
         println("Sum $sum")
     }
 }

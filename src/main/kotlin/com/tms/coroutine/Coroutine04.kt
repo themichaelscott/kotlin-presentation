@@ -5,13 +5,13 @@ import kotlinx.coroutines.experimental.runBlocking
 
 fun main(args: Array<String>) {
 
-    val deferred = (1..1_000_000).map {
+    val deferredIntList = (1..1_000_000).map {
         async {
             1
         }
     }
 
-//    val sum = deferred.sumBy { it.await() }
+//    val sum = deferredIntList.sumBy { deferredInt ->  deferredInt.await() }
 //    println("Sum $sum")
 
 }
