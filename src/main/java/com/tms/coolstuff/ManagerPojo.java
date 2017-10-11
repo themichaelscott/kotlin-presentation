@@ -1,6 +1,6 @@
 package com.tms.coolstuff;
 
-public class JManager {
+public class ManagerPojo {
 
     private String name;
     private String dept;

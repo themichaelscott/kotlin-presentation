@@ -16,12 +16,13 @@ fun main(args: Array<String>) {
         println("\n$employee")
         when (employee) {
             is Manager -> employee.goToMeeting()
-            is Programmer -> takeCareOfProGamers(employee)
+            is Programmer -> takeCareOfProgrammer(employee)
         }
     }
 }
 
-fun takeCareOfProGamers(programmer: Programmer) {
+private fun takeCareOfProgrammer(programmer: Programmer?) {
+    programmer ?: return
     when {
         programmer.salary < 20_000 -> programmer.giveRaise()
         System.currentTimeMillis() < 0 -> println("this will never get called if the machine time is right")
@@ -29,6 +30,6 @@ fun takeCareOfProGamers(programmer: Programmer) {
     }
 }
 
-fun printFavoriteDrink(drink: String?) {
-    println(drink ?: "Not a real pro gamer!")
+private fun printFavoriteDrink(drink: String?) {
+    println(drink ?: "Real programmers have a favorite drink!")
 }
