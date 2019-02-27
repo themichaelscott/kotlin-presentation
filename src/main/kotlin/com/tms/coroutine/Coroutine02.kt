@@ -2,7 +2,7 @@ package com.tms.coroutine
 
 import java.util.concurrent.atomic.AtomicInteger
 
-fun main(args: Array<String>) {
+fun main() {
     val count = AtomicInteger()
 
     for (i in 1..1_000) {

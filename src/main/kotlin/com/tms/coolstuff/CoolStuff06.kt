@@ -4,7 +4,7 @@ package com.tms.coolstuff
  * Demonstrates filterNotNull() on collections
  * Demonstrates different possibilities in when statement
  */
-fun main(args: Array<String>) {
+fun main() {
 
     val employeeList = listOf(
             Manager("Mike", "Enterprise"),

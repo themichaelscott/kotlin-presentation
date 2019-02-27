@@ -1,13 +1,14 @@
 package com.tms.coroutine
 
-import kotlinx.coroutines.experimental.launch
+import kotlinx.coroutines.GlobalScope
+import kotlinx.coroutines.launch
 import java.util.concurrent.atomic.AtomicInteger
 
-fun main(args: Array<String>) {
+fun main() {
     val count = AtomicInteger()
 
     for (i in 1..1_000_000) {
-        launch {
+        GlobalScope.launch {
             count.addAndGet(1)
         }
     }

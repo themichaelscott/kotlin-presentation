@@ -3,7 +3,7 @@ package com.tms.coolstuff
 /**
  * Demonstrates forEach() and nulls in list for smart cast
  */
-fun main(args: Array<String>) {
+fun main() {
 
     val employeeList = listOf(
             Manager("Mike", "Enterprise"),

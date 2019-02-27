@@ -1,12 +1,12 @@
 package com.tms.coroutine
 
-import kotlinx.coroutines.experimental.async
-import kotlinx.coroutines.experimental.runBlocking
+import kotlinx.coroutines.GlobalScope
+import kotlinx.coroutines.async
 
-fun main(args: Array<String>) {
+fun main() {
 
     val deferredIntList = (1..1_000_000).map {
-        async {
+        GlobalScope.async {
             1
         }
     }

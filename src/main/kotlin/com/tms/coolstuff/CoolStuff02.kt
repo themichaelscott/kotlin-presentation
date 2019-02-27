@@ -3,7 +3,7 @@ package com.tms.coolstuff
 /**
  * Demonstrates toString() on data class
  */
-fun main(args: Array<String>) {
+fun main() {
 
     val employeeList = listOf(
             Manager("Mike", "Enterprise"),

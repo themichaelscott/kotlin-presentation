@@ -6,12 +6,12 @@ package com.tms.coolstuff
  * Adds a new programmer, Jeff, who hates soda.
  * Updates printFavDrink() to take a nullable favorite drink
  */
-fun main(args: Array<String>) {
+fun main() {
 
     val employeeList = listOf(
             Manager("Mike", "Enterprise"),
             null,
-            Programmer("Jeff", 30_000, null),
+//            Programmer("Jeff", 30_000, null),
             Programmer("Jordan", 30_000, "Crystal Pepsi")
     )
 

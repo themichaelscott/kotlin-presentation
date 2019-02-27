@@ -4,7 +4,7 @@ package com.tms.coolstuff
  * Overrides default parameter.
  * Adds method to print programmer's non-nullable favorite drink
  */
-fun main(args: Array<String>) {
+fun main() {
 
     val employeeList = listOf(
             Manager("Mike", "Enterprise"),

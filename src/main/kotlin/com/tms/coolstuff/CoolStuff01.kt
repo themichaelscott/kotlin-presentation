@@ -3,7 +3,7 @@ package com.tms.coolstuff
 /**
  * demonstrates listOf()
  */
-fun main(args: Array<String>) {
+fun main() {
 
     val employeeList = listOf(
             Manager("Mike", "Enterprise"),

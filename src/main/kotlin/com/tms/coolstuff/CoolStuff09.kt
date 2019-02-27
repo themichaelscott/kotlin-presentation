@@ -3,7 +3,7 @@ package com.tms.coolstuff
 /**
  * Updates printFavDrink() to handle a nullable favorite drink
  */
-fun main(args: Array<String>) {
+fun main() {
 
     val employeeList = listOf(
             Manager("Mike", "Enterprise"),
