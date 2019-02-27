@@ -3,13 +3,14 @@ package com.tms.coolstuff
 /**
  * Demonstrates filterNotNull() on collections
  * Demonstrates different possibilities in when statement
+ * Demonstrates autocast
  */
 fun main() {
 
     val employeeList = listOf(
-            Manager("Mike", "Enterprise"),
+            Manager("Trevor", "Labs"),
             null,
-            Programmer("Jordan", 10_000)
+            Programmer("Mike", 10_000)
     )
 
     employeeList.filterNotNull().forEach { employee ->

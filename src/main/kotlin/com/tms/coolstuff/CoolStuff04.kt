@@ -6,8 +6,8 @@ package com.tms.coolstuff
 fun main() {
 
     val employeeList = listOf(
-            Manager("Mike", "Enterprise"),
-            Programmer("Jordan", 10_000)
+            Manager("Trevor", "Labs"),
+            Programmer("Mike", 10_000)
     )
 
     for (employee in employeeList) {

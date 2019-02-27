@@ -6,9 +6,9 @@ package com.tms.coolstuff
 fun main() {
 
     val employeeList = listOf(
-            Manager("Mike", "Enterprise"),
+            Manager("Trevor", "Labs"),
             null,
-            Programmer("Jordan", 10_000)
+            Programmer("Mike", 10_000)
     )
 
     employeeList.forEach { employee ->

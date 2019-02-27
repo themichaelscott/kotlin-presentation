@@ -7,9 +7,9 @@ package com.tms.coolstuff
 fun main() {
 
     val employeeList = listOf(
-            Manager("Mike", "Enterprise"),
+            Manager("Trevor", "Labs"),
             null,
-            Programmer("Jordan", 30_000, "Crystal Pepsi")
+            Programmer("Mike", 30_000, "Crystal Pepsi")
     )
 
     employeeList.filterNotNull().forEach { employee ->

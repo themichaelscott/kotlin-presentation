@@ -6,6 +6,6 @@ package com.tms.coolstuff
 data class Manager(val name: String, val dept: String) {
 
     fun goToMeeting() {
-        println("$name from $dept fell asleep again!")
+        println("$name from $dept went to a meeting.")
     }
 }
